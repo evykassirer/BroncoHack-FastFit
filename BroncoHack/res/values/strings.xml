@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FastFit</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_exercise">Exercise</string>
+	<color name="mainbackground">#F8F8F8</color>
+	<color name="buttoncolor">#CC6D7B8D</color>
+	<color name="white">#F8F8F8</color>
+	<color name="transparentgrey">#88808080</color>
+	<color name="lesstransparentgrey">#BB808080</color>
+	
+	<string name="jacks">Jumping Jacks</string>
+<string name="jacks_desc">Jumping Jacks are great for getting your Cardiovascular system working hard quickly. They target your legs, core, and shoulder muscles.</string>
+<string name="squats">Prisoner Squats</string>
+<string name="squats_desc">Prisoner squats are a great way to get a leg workout in without heavy weights.  They target your legs, specifically your quadriceps.</string>
+<string name="burpees">Burpees</string>
+<string name="burpees_desc">Burpees are intense; targeting your core, legs, and chest muscles with its combination of push ups, jumping, and planking!</string>
+<string name="situps">Sit-Ups</string>
+<string name="situps_desc">Sit-ups target your abdominal and hip flexor muscles as you raise your torso off the ground, make sure to lower your torso back down slowly!</string>
+<string name="flutter">Flutter Kick</string>
+<string name="flutter_desc">The flutter kick targets your hip flexors, abdominal, and leg muscles. They are calisthenics derived from the freestyle swimming stroke.</string>
+<string name="plank">The Plank</string>
+<string name="plank_desc">The Plank uses your abdominal muscles to hold up your torso in a straight line. Performing well on these helps your push-ups too!</string>
+<string name="push">Push Ups</string>
+<string name="push_desc">Push-ups work your chest, shoulder, and arm muscles as you raise and lower your body. By maintaining a straight torso, you also work your abdominals!</string>
+<string name="wall">Wall Sits</string>
+<string name="wall_desc">Wall sits are very hard on your quadriceps, strengthening them immensely. Be careful, don’t sit too far down the wall or its bad for your knees!</string>
+<string name="bike">Air Bike</string>
+<string name="bike_desc">The air bike is an intense abdominal workout, by doing it quickly you also work your cardiovascular system and improve your coordination.</string>
+<string name="climber">Mountain Climbers</string>
+<string name="climber_desc">Mountain climbers work your abdominals and leg muscles while placing a stress on the cardiovascular system.</string>
+
+
+<string name="quad">Quadricep Stretch</string>
+<string name="quad_desc">The quadricep stretch is important to maintaining lower body flexibility and exercising without hurting yourself.</string>
+<string name="kicks">Flutter Kicks (Under the Desk)</string>
+<string name="kicks_desc">A discrete way to work your leg muscles while seated, kick your legs while keeping your feet perpendicular to the ground</string>
+<string name="water">Water Bottle Arm Raises</string>
+<string name="water_desc">Using any heavy object available to you and your arms, move the object across your body and then over your head.</string>
+<string name="seated">Seated Arm Circles</string>
+<string name="seated_desc">While seated, rotate your arms clockwise or counterclockwise in order to strengthen your shoulder muscles!</string>
+<string name="bottom">Bottom Line Lifters</string>
+<string name="bottom_desc">By moving your leg to the indicated position and rotating it, you strengthen and raise your “Bottom Line!”</string>
+<string name="calf">Calf Raises</string>
+<string name="calf_desc">Weighted calf raises are one of the best ways to strengthen your calves which are used in many different forms of exercise.</string>
+<string name="lifts">Leg Lifts</string>
+<string name="lifts_desc">Leg lifts are similar to flutter kicks. Working both the quadriceps and the hip flexors, but are designed to target one leg at a time.</string>
+<string name="shrug">Shoulder Shrug</string>
+<string name="shrug_desc">-The shoulder shrug is one of the best ways to work on shoulder endurance! Put water bottles in your hands for more difficulty.</string>
+<string name="overhead">Overhead Arm Pull</string>
+<string name="overhead_desc">The overhead arm pull stretches your arm and shoulder muscles resulting in upper body flexibility while avoiding elbow damage.</string>
+<string name="cork">Corkscrew Stretch</string>
+<string name="cork_desc">The corkscrew stretches your hip, lower and middle back. This is a great stretch to stretch multiple muscles at once!</string>
+		
+</resources>
