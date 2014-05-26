@@ -29,26 +29,24 @@
 	        android:textSize="30sp"
 	        android:fontFamily="sans-serif-condensed" 
 	        android:textStyle="italic"
-	        android:text="Plank"
+	        android:gravity="center_horizontal"
+	        android:text=""
 	        android:includeFontPadding="false" 
 	        android:textAppearance="?android:attr/textAppearanceLarge" 
 	        android:textColor="@color/white"/>
 
 		<ImageView
 	        android:id="@+id/exercise_image"
-	        android:layout_width="120dp"
-	        android:layout_height="120dp"
-	        android:layout_marginTop="10dp"
-	        android:src="@drawable/plank" />
+	        android:layout_width="170dp"
+	        android:layout_height="170dp"
+	        android:layout_marginTop="10dp" />
 
        	<TextView
 	        android:id="@+id/exercise_descr"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:layout_below="@+id/exercise_image"
-	        android:layout_centerHorizontal="true"
-	        android:gravity="top|center"
-	        android:text="Push-ups work your chest, shoulder, and arm muscles as you raise and lower your body. By maintaining a straight torso, you also work your abdominals!"
+	        android:gravity="center_horizontal"
+	        android:text=""
 	        android:textAppearance="?android:attr/textAppearanceMedium" 
 	        android:textColor="@color/white"
          	android:background="@color/lesstransparentgrey"  />

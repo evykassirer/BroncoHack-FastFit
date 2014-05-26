@@ -2,25 +2,18 @@ package com.example.broncohack;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.NavUtils;
-import android.support.v7.app.ActionBarActivity;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class ExerciseActivity extends ActionBarActivity {
+public class ExerciseActivity extends Activity {
 	ExerciseList list;
 	int view;
 	@Override
@@ -29,8 +22,6 @@ public class ExerciseActivity extends ActionBarActivity {
 		setContentView(R.layout.activity_exercise);
 
 		if (savedInstanceState == null) {
-			//getSupportFragmentManager().beginTransaction()
-				//	.add(R.id.container, new PlaceholderFragment()).commit();
 			
 		}
 		
@@ -49,45 +40,6 @@ public class ExerciseActivity extends ActionBarActivity {
 		
 		updateView();
 		
-		
-		
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.exercise, menu);
-		return true;
-	}
-
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
-		}
-		return super.onOptionsItemSelected(item);
-	}
-
-	/**
-	 * A placeholder fragment containing a simple view.
-	 */
-	public static class PlaceholderFragment extends Fragment {
-
-		public PlaceholderFragment() {
-		}
-
-		@Override
-		public View onCreateView(LayoutInflater inflater, ViewGroup container,
-				Bundle savedInstanceState) {
-			View rootView = inflater.inflate(R.layout.fragment_exercise,
-					container, false);
-			return rootView;
-		}
 	}
 	
 	public void updateView(){
@@ -149,6 +101,11 @@ public class ExerciseActivity extends ActionBarActivity {
 		        ///change buttons
 		        //start --> back to main menu
 		        //skip --> next
+		        
+		        TextView desc = (TextView)con.findViewById(R.id.exercise_descr);
+				desc.setText("\nGOOD JOB!!");
+				desc.setTextSize(40);
+		        
 				Button sbb = (Button)con.findViewById(R.id.startBackButton);
 				sbb.setText("Menu");
 				sbb.setOnClickListener(new View.OnClickListener() {
